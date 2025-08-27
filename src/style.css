@@ -1,0 +1,133 @@
+
+/* Generales CSS*/
+body{
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  background-color:black;
+  display:flex;
+  flex-direction: column;         /* apila en columna */
+  margin: 0;                      /* quitar margen por defecto del navegador */
+}
+header {
+  display: flex;                /* contenedor flexible */
+  justify-content: center;      /* centra horizontalmente */
+  align-items: center;          /* centra verticalmente */
+  height: 50px;
+  font-size: 15px;
+  color: white;
+  background-color: grey;
+}
+main{
+  display: flex;
+  justify-content: center;    /* centra horizontalmente */ 
+  width: 100%;              
+}
+/* ======================================================== Clases CSS*/
+.Marcador{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.Dificultad{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.InterfazMedia{
+  display: flex;
+}
+.ContenedorBotones{
+
+display: flex;     
+flex: 1;
+flex-direction: column;            
+
+}
+.MiniContendorBotones{
+  display: flex;    /* Por defecto los apila en fila */
+}
+.boton{
+  cursor: pointer;
+  width: 375px;
+  height: 375px;
+  display: inline-block; 
+  border-width: 10px;
+  border-color: black;
+}
+.InterfazBaja{
+  
+  display: flex;
+  height: 125px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center ;
+ 
+}
+.dificultadBtn {
+  font-family: 'Press Start 2P', cursive;
+  width: 120px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 12px;
+}
+/* off es una clase que se le puede poner a dificultadbtn */
+.dificultadBtn.off {
+  background-color: #444;
+  color: white;
+}
+.dificultadBtn.on {
+  background-color: #4cd964; 
+  color: black;
+}
+.dificultadBtn.onHard {
+  background-color: red; 
+  color: black;
+}
+.botonStartReset{
+  font-family: 'Press Start 2P', cursive;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border-width: 10px;
+  background-color: white;
+  border-color: black;
+}
+
+
+/* ==========================================================  ID CSS*/
+#Espacio{
+  height: 20px;
+}
+#rojo{
+  background-color: red;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 50%;
+}
+#verde{
+  border-top-right-radius: 100%;
+ border-bottom-left-radius:50%;
+  background-color: green;
+}
+#azul{
+  border-bottom-left-radius: 100%;
+  border-top-right-radius: 50%;
+  background-color: blue;
+}
+#amarillo{
+  border-bottom-right-radius: 100%;
+  border-top-left-radius: 50%;
+  background-color: yellow;
+}
+#NumeroMarcador{
+  font-size: 70px;
+}
+
+
+

@@ -1,0 +1,51 @@
+<!doctype html> <!--Declaración del tipo de documento HTML5-->
+
+<html lang="es"> <!--Idioma del documento: español-->
+  
+  <head>
+    <meta charset="UTF-8" />                                                                                <!--Define la codificación de caracteres como UTF-8-->
+    <link rel = "stylesheet" href="src/style.css" />                                                          <!--Icono del sitio web-->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">       <!--Importa la fuente "Fredoka" desde Google Fonts-->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />                                                  <!--Icono del sitio web-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />                                   <!--Configura la ventana gráfica para que sea responsiva-->
+    <title>Simon dice</title>
+  </head>
+
+  <body>
+    <header>
+        <h1>Simon dice ... </h1>
+    </header>
+    <div id="Espacio"> </div>
+    <main>
+      
+      <div class="Marcador">
+          <h2>Marcador</h2>
+          <div id="NumeroMarcador">0</div>
+      </div>
+      <div class="ContenedorBotones">
+        <div class="MiniContendorBotones">
+            <button class="boton" id="rojo"></button>
+            <button class="boton" id="verde"></button>
+          </div>
+        <div class="MiniContendorBotones">
+            <button class="boton" id="azul"></button>
+            <button class="boton" id="amarillo"></button>
+        </div>   
+      </div> 
+      <div class="Dificultad">     
+        <h2>Dificultad</h2>
+        <div>
+          <button id="facilBtn" class="dificultadBtn off">Fácil</button>
+          <button id="dificilBtn" class="dificultadBtn off">Difícil</button>
+        </div>
+      </div>
+    </main>
+    <div class="InterfazBaja"> 
+      <button class="botonStartReset">Start</button>
+      <button class="botonStartReset">Reiniciar</button>
+    </div>
+  
+    <script type="module" src="/src/main.ts"></script> <!--Enlaza el archivo JavaScript principal (main.ts)-->
+
+  </body>
+</html>
