@@ -65,13 +65,11 @@ flex-direction: column;
   border-color: black;
 }
 .InterfazBaja{
-  
   display: flex;
-  height: 120px;
+  height: 118px;
   gap: 20px;
   justify-content: center;
   align-items: center ;
- 
 }
 .dificultadBtn {
   font-family: 'Press Start 2P', cursive;
@@ -154,6 +152,49 @@ flex-direction: column;
 }
 #NumeroMarcador{
   font-size: 70px;
+}
+#I1{
+  display: flex;
+  flex:1;
+  background-color: yellow;
+}
+#I2{
+  display: flex;
+  flex:1;
+  align-content: center;
+  justify-content: center;
+}
+#Simon{
+  display: flex;
+  flex:1;
+  height: 100%;
+
+}
+#Separador{
+  width: 15%;
+  background-color: black;
+}
+#ImagenSimon {
+  width: 33%;  
+  height: 100%;  
+  background-image: url("/Imag/g4.png"); /* tu ruta */
+  background-size: contain;  /* ajusta la imagen sin recortar */
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid white;
+  
+}
+#dialogo{
+  width:67%;
+ 
+  background-color: black;
+   border: 1px solid white;
+   
+}
+#TextoDialogo{
+   justify-content: center;
+  align-items: center;
+  margin: 10px;
 }
 
 
