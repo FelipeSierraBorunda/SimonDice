@@ -15,7 +15,15 @@
     <header>
         <h1>Simon dice ... </h1>
     </header>
-    <div id="Espacio"> </div>
+    
+    <div id="Espacio"> 
+      <div id="EspacioRojo"></div>
+      <div id="EspacioAzul"></div>
+      <div id="EspacioAmarillo"></div>
+      <div id ="EspacioVerde"></div>
+    </div>
+    <div class="Espacio">
+    </div>
     <main>
       
       <div class="Marcador">
@@ -41,8 +49,8 @@
       </div>
     </main>
     <div class="InterfazBaja"> 
-      <button class="botonStartReset">Start</button>
-      <button class="botonStartReset">Reiniciar</button>
+      <button id="StartBtn" class="botonStartReset">Start</button>
+      <button id="ResetBtn" class="botonStartReset">Reiniciar</button>
     </div>
   
     <script type="module" src="/src/main.ts"></script> <!--Enlaza el archivo JavaScript principal (main.ts)-->

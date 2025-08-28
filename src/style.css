@@ -12,10 +12,12 @@ header {
   display: flex;                /* contenedor flexible */
   justify-content: center;      /* centra horizontalmente */
   align-items: center;          /* centra verticalmente */
-  height: 50px;
+  height: 55px;
   font-size: 15px;
-  color: white;
-  background-color: grey;
+  color:  white;
+  border-color: red;
+  border-width: 10px;
+  background-color:black;
 }
 main{
   display: flex;
@@ -23,6 +25,9 @@ main{
   width: 100%;              
 }
 /* ======================================================== Clases CSS*/
+.Espacio{
+  height: 15px;
+}
 .Marcador{
   display: flex;
   flex-direction: column;
@@ -62,7 +67,7 @@ flex-direction: column;
 .InterfazBaja{
   
   display: flex;
-  height: 125px;
+  height: 120px;
   gap: 20px;
   justify-content: center;
   align-items: center ;
@@ -103,7 +108,29 @@ flex-direction: column;
 
 /* ==========================================================  ID CSS*/
 #Espacio{
-  height: 20px;
+  display: flex;
+  height: 5px;
+  background-color: white;
+}
+#EspacioRojo{
+  display: flex;
+  flex:1;
+  background-color: red;
+}
+#EspacioVerde{
+  display: flex;
+  flex:1;
+  background-color: green;
+}
+#EspacioAzul{
+  display: flex;
+  flex:1;
+  background-color: blue;
+}
+#EspacioAmarillo{
+  display: flex;
+  flex:1;
+  background-color: yellow;
 }
 #rojo{
   background-color: red;
